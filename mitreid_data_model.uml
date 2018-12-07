@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Persistence</ID>
+  <OriginalElement>JavaeeElement:/521375b4/Entities/openid-connect-common/jpa/JPA/PersistenceModel</OriginalElement>
+  <nodes>
+    <node x="823.25" y="1612.0">ApprovedSite#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/openid/connect/model/ApprovedSite.java</node>
+    <node x="1079.25" y="1656.0">AuthorizationCodeEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/AuthorizationCodeEntity.java</node>
+    <node x="1309.0" y="255.0">Policy#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/uma/model/Policy.java</node>
+    <node x="1309.0" y="1667.0">Permission#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/uma/model/Permission.java</node>
+    <node x="1627.0" y="233.0">DefaultUserInfo#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/openid/connect/model/DefaultUserInfo.java</node>
+    <node x="1929.0" y="0.0">SystemScope#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/SystemScope.java</node>
+    <node x="1658.5" y="0.0">DefaultAddress#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/openid/connect/model/DefaultAddress.java</node>
+    <node x="281.0" y="2040.0">PairwiseIdentifier#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/openid/connect/model/PairwiseIdentifier.java</node>
+    <node x="1394.875" y="1878.0">PermissionTicket#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/uma/model/PermissionTicket.java</node>
+    <node x="488.25" y="1601.0">DeviceCode#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/DeviceCode.java</node>
+    <node x="1309.0" y="884.0">ResourceSet#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/uma/model/ResourceSet.java</node>
+    <node x="529.0" y="2040.0">SavedRegisteredClient#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/uma/model/SavedRegisteredClient.java</node>
+    <node x="745.7291666666667" y="862.0">AuthenticationHolderEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/AuthenticationHolderEntity.java</node>
+    <node x="745.7291666666667" y="233.0">SavedUserAuthentication#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/SavedUserAuthentication.java</node>
+    <node x="0.0" y="2040.0">WhitelistedSite#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/openid/connect/model/WhitelistedSite.java</node>
+    <node x="249.64722222222224" y="1656.0">OAuth2RefreshTokenEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/OAuth2RefreshTokenEntity.java</node>
+    <node x="0.0" y="422.0">ClientDetailsEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/ClientDetailsEntity.java</node>
+    <node x="1321.0" y="0.0">Claim#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/uma/model/Claim.java</node>
+    <node x="845.0" y="2040.0">BlacklistedSite#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/openid/connect/model/BlacklistedSite.java</node>
+    <node x="842.25" y="1856.0">OAuth2AccessTokenEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/OAuth2AccessTokenEntity.java</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Permission#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/uma/model/Permission.java" target="ResourceSet#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/uma/model/ResourceSet.java">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="102.5" />
+    </edge>
+    <edge source="PermissionTicket#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/uma/model/PermissionTicket.java" target="Claim#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/uma/model/Claim.java">
+      <point x="39.75" y="-47.5" />
+      <point x="1514.125" y="1836.0" />
+      <point x="1502.5" y="1836.0" />
+      <point x="1502.5" y="208.0" />
+      <point x="1516.75" y="208.0" />
+      <point x="65.25" y="91.5" />
+    </edge>
+    <edge source="OAuth2AccessTokenEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/OAuth2AccessTokenEntity.java" target="OAuth2RefreshTokenEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/OAuth2RefreshTokenEntity.java">
+      <point x="-39.59999999999991" y="-69.5" />
+      <point x="901.6500000000001" y="1826.0" />
+      <point x="350.14722222222224" y="1826.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="OAuth2AccessTokenEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/OAuth2AccessTokenEntity.java" target="ApprovedSite#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/openid/connect/model/ApprovedSite.java">
+      <point x="0.0" y="-69.5" />
+      <point x="0.0" y="91.5" />
+    </edge>
+    <edge source="DefaultUserInfo#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/openid/connect/model/DefaultUserInfo.java" target="DefaultAddress#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/openid/connect/model/DefaultAddress.java">
+      <point x="0.0" y="-245.5" />
+      <point x="0.0" y="91.5" />
+    </edge>
+    <edge source="OAuth2AccessTokenEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/OAuth2AccessTokenEntity.java" target="AuthenticationHolderEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/AuthenticationHolderEntity.java">
+      <point x="39.60000000000002" y="-69.5" />
+      <point x="980.85" y="1826.0" />
+      <point x="1281.8319444444444" y="1826.0" />
+      <point x="1281.8319444444444" y="1571.0" />
+      <point x="1025.7291666666667" y="1571.0" />
+      <point x="120.0" y="124.5" />
+    </edge>
+    <edge source="OAuth2AccessTokenEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/OAuth2AccessTokenEntity.java" target="Permission#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/uma/model/Permission.java">
+      <point x="79.20000000000005" y="-69.5" />
+      <point x="1020.45" y="1836.0" />
+      <point x="1354.75" y="1836.0" />
+      <point x="-45.75" y="36.5" />
+    </edge>
+    <edge source="Policy#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/uma/model/Policy.java" target="Claim#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/uma/model/Claim.java">
+      <point x="0.0" y="-47.5" />
+      <point x="1400.5" y="208.0" />
+      <point x="1386.25" y="208.0" />
+      <point x="-65.25" y="91.5" />
+    </edge>
+    <edge source="OAuth2RefreshTokenEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/OAuth2RefreshTokenEntity.java" target="ClientDetailsEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/ClientDetailsEntity.java">
+      <point x="-50.25" y="-47.5" />
+      <point x="299.89722222222224" y="1581.0" />
+      <point x="289.5" y="1581.0" />
+      <point x="96.5" y="564.5" />
+    </edge>
+    <edge source="ResourceSet#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/uma/model/ResourceSet.java" target="Policy#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/uma/model/Policy.java">
+      <point x="0.0" y="-102.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="OAuth2AccessTokenEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/OAuth2AccessTokenEntity.java" target="ClientDetailsEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/ClientDetailsEntity.java">
+      <point x="-79.19999999999993" y="-69.5" />
+      <point x="862.0500000000001" y="1836.0" />
+      <point x="200.77638888888885" y="1836.0" />
+      <point x="200.77638888888885" y="1581.0" />
+      <point x="96.5" y="1581.0" />
+      <point x="-96.5" y="564.5" />
+    </edge>
+    <edge source="OAuth2RefreshTokenEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/OAuth2RefreshTokenEntity.java" target="AuthenticationHolderEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/AuthenticationHolderEntity.java">
+      <point x="50.25" y="-47.5" />
+      <point x="400.39722222222224" y="1571.0" />
+      <point x="785.7291666666667" y="1571.0" />
+      <point x="-120.0" y="124.5" />
+    </edge>
+    <edge source="AuthenticationHolderEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/AuthenticationHolderEntity.java" target="SavedUserAuthentication#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/SavedUserAuthentication.java">
+      <point x="0.0" y="-124.5" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="AuthorizationCodeEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/AuthorizationCodeEntity.java" target="AuthenticationHolderEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/AuthenticationHolderEntity.java">
+      <point x="0.0" y="-47.5" />
+      <point x="1171.25" y="1581.0" />
+      <point x="945.7291666666667" y="1581.0" />
+      <point x="40.0" y="124.5" />
+    </edge>
+    <edge source="DeviceCode#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/DeviceCode.java" target="AuthenticationHolderEntity#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/oauth2/model/AuthenticationHolderEntity.java">
+      <point x="0.0" y="-102.5" />
+      <point x="645.75" y="1581.0" />
+      <point x="865.7291666666667" y="1581.0" />
+      <point x="-40.0" y="124.5" />
+    </edge>
+    <edge source="PermissionTicket#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/uma/model/PermissionTicket.java" target="Permission#file:///Users/i/Development/open_source/OpenID-Connect-Java-Spring-Server/openid-connect-common/src/main/java/org/mitre/uma/model/Permission.java">
+      <point x="-39.75" y="-47.5" />
+      <point x="1434.625" y="1836.0" />
+      <point x="1446.25" y="1836.0" />
+      <point x="45.75" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3954983922829582" x="1064.6829268292684" y="1118.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Embeddables</Category>
+    <Category>Superclasses</Category>
+  </Categories>
+</Diagram>
+
